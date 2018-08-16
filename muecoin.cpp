@@ -298,7 +298,7 @@ bool TestNode(const CService &cip, int &ban, int &clientV, std::string &clientSV
 
 /*
 int main(void) {
-  CService ip("nodes.muex.io", 29948, true);
+  CService ip("nodes.cryptophi.com", 29948, true);
   vector<CAddress> vAddr;
   vAddr.clear();
   int ban = 0;
