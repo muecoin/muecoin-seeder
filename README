@@ -1,7 +1,7 @@
-terracoin-seeder
+muecoin-seeder
 ================
 
-Terracoin-seeder is a crawler for the Terracoin network, which exposes a list
+Muecoin-seeder is a crawler for the Muecoin network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
