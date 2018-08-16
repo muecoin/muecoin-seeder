@@ -6,7 +6,7 @@
 #include "serialize.h"
 #include "uint256.h"
 
-#define TERRACOIN_SEED_NONCE  0x0539a019ca550825ULL
+#define MUECOIN_SEED_NONCE  0x0539a019ca550825ULL
 
 using namespace std;
 
@@ -75,12 +75,12 @@ class CNode {
   
   void PushVersion() {
     int64 nTime = time(NULL);
-    uint64 nLocalNonce = TERRACOIN_SEED_NONCE;
+    uint64 nLocalNonce = MUECOIN_SEED_NONCE;
     int64 nLocalServices = 0;
     CAddress me(CService("0.0.0.0"));
     BeginMessage("version");
     int nBestHeight = GetRequireHeight();
-    string ver = "/terracoin-seeder:1.01/";
+    string ver = "/muecoin-seeder:1.01/";
     vSend << PROTOCOL_VERSION << nLocalServices << nTime << you << me << nLocalNonce << ver << nBestHeight;
     EndMessage();
   }
