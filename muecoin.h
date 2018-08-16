@@ -1,5 +1,5 @@
-#ifndef _TERRACOIN_H_
-#define _TERRACOIN_H_ 1
+#ifndef _MUECOIN_H_
+#define _MUECOIN_H_ 1
 
 #include "protocol.h"
 
